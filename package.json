@@ -5,6 +5,10 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "./es/index.d.ts",
+  "files": [
+    "es",
+    "lib"
+  ],
   "scripts": {
     "build": "run-s build:*",
     "build:es": "tsc --project tsconfig.json --outDir es",
